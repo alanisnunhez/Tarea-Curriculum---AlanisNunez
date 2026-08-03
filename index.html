@@ -7,6 +7,9 @@
             Curriculum Alanis
         </title>
         <style>
+            .titulo{
+                color: #00569D;
+            }
             .contactos {
                 color : blueviolet;
             }
@@ -24,30 +27,37 @@
                 margin: 0 auto;
             }
             body {
-                background-color: grey;
-                margin: 30px;
+                background-color: #d7b38e;
             }
             main {
-                background-color: white;  
-                padding: 25px;
-                border-radius: 8px;  
-                width: 850px;
-                margin: 0 auto;
+                width: 65%;
+                background-color: #d7b38e;
+                padding: 20px;
             }
+            .cuerpo {
+                background-color: white;  
+                padding: 20px;
+                border-radius: 10px;
+                width: 35%;
+            }
+            .contenedor{
+                display: flex; 
+                flex-direction: row;
+                width: 100%;
+            }
+
         </style>
     </head>
-    <body>
-        <main>
-            <header>
+    <body class="contenedor">
+        <header class="cuerpo">
                 <center>
-                    <h1> <em>ALANIS NÚÑEZ</em></h1>
-                        <p><strong> ESTUDIANTE DE INGENIERÍA INFORMÁTICA</strong></p>
                     <div class="foto">
-                        <img src="foto.jpeg" width="300" height="400">
+                        <img src="foto.jpeg" width="300" height="300">
                     </div>
-                </center>
-            </header>
-            <div>
+                    <h1 class="titulo"> <em>ALANIS NÚÑEZ</em></h1>
+                    <p><strong> ESTUDIANTE DE INGENIERÍA INFORMÁTICA</strong></p>
+
+                    <div>
                 <h2 class="portada">
                     <em>
                         PERFIL PROFESIONAL
@@ -69,6 +79,7 @@
                    </strong>
                 </p>
             </div>
+
             <div>
                 <h2 class="portada">
                     <em>
@@ -110,6 +121,9 @@
                     </tbody>
                 </table>
             </div>
+            </center>
+            </header>
+        <main>
             <div>
                 <h2 class="portada">
                     <em>
